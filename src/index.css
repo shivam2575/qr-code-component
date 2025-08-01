@@ -1,1 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import 'tailwindcss';
+
+@theme{
+    --font-outfit: "Outfit"
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(212, 45%, 89%);
+}
