@@ -1,3 +1,4 @@
+import QRCode from "../assets/image-qr-code.png";
 const QRComponent = () => {
   return (
     <div
@@ -5,7 +6,7 @@ const QRComponent = () => {
       className="m-2 p-2 mt-8 bg-white rounded-2xl w-[80%] md:w-[20%] h-[50%] shadow-lg"
     >
       <div id="img-container" className="m-2 rounded-2xl overflow-hidden">
-        <img src="images/image-qr-code.png" alt="qr" />
+        <img src={QRCode} alt="qr" />
       </div>
       <div id="content-container" className="m-2 p-2 text-center">
         <h1 className="p-2 font-bold text-lg">
