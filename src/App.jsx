@@ -1,7 +1,11 @@
-import "./App.css";
+import QRComponent from "./components/QRComponent";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <QRComponent />
+    </>
+  );
 }
 
 export default App;
